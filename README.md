@@ -9,7 +9,7 @@ This is our adaption of the original [HAGIWO 58th original eurorack modular synt
 
 The Story of "MVMNT":
 
-The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3 in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
+The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
 It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts alike.
 
 ![MVMNT Flip panel ](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Both.jpg)
@@ -34,7 +34,7 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
   
 - Track & Hold with the TRIG Input.
   
-- Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), ["MVMNT" offers a wide range of additional firmware options to try](https://awonak.github.io/HagiwoModulove/synclfo/):
+- Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), "MVMNT" offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try:
 
 # Firmware flavors
 

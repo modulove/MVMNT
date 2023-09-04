@@ -1,4 +1,4 @@
-# MVMNT - Bezier Curves Smooth Random Control Voltage
+# MVMNT - Bezier Curve Smooth Random Control Voltage
 Breathe Life Into Your Modular Soundscapes!
 
 ![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
@@ -9,7 +9,7 @@ This is our adaption of the original [HAGIWO 58th original eurorack modular synt
 
 The Story of "MVMNT":
 
-The journey began with the publication of the original design by Hagiwo in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
+The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3 in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
 It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts alike.
 
 ![MVMNT Flip panel ](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Both.jpg)
@@ -17,23 +17,38 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 # Key Features:
 
 - Dual-Panel Design by [bkrsmdesign](https://www.instagram.com/bkrsmdesign/ "Sasha Kruse"):
-  "MVMNT" comes with a unique flip panel, featuring the original SYNC MOD LFO on the backside. This dual-use design allows you to switch between the two panels, providing flexibility and added value.
-- Three Options in One: Choose the path that suits you best with three options - a complete built module for immediate gratification, a complete DIY kit, or a panel/PCB kit with pre-placed SMD components for the perfect entry point into SYNTH DIY.
-- Beginner-Friendly: We've made it accessible to beginners by keeping assembly straightforward. With just 20 parts to assemble, "MVMNT" welcomes newcomers to the world of modular synths. Our build video and firmware uploader ensure a smooth journey for all skill levels.
-- Smooth Random Control Voltage (CV): "MVMNT" introduces the power of smooth random CV, enhancing your modular with dynamic and unpredictable modulation possibilities. Say goodbye to static soundscapes and welcome the beauty of randomness.
-- Versatile Firmware Options: Collaborating with the talented coder Adam Wonak, "MVMNT" offers a wide range of additional firmware options to try:
+  "MVMNT" comes with a unique flip panel, featuring the original SYNC MOD LFO on the backside.
+  This dual-use design allows you to switch between the two panels, providing flexibility and added value.
+  
+- Three Options in One: Choose the path that suits you best with three options -
+- a complete built module for immediate gratification,
+- a complete DIY kit,
+- or a panel/PCB kit with pre-placed SMD components for the perfect entry point into SYNTH DIY.
+  
+- Beginner-Friendly: We've made it accessible to beginners by keeping assembly straightforward.
+  With just 20 parts to assemble, "MVMNT" welcomes newcomers to the world of modular synths.
+  Our build video and firmware uploader ensure a smooth journey for all skill levels.
+  
+- Smooth Random Control Voltage (CV): "MVMNT" introduces the power of smooth random CV, enhancing your modular with dynamic and unpredictable modulation possibilities.
+- Say goodbye to static soundscapes and welcome the beauty of randomness.
+  
+- Track & Hold with the TRIG Input.
+  
+- Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), ["MVMNT" offers a wide range of additional firmware options to try](https://awonak.github.io/HagiwoModulove/synclfo/):
 
- - Bezier Curve Smooth Random Control (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
- - SYNC LFO ...
- - ADSR - envelope generator firmware: Craft intricate envelope shapes to shape your sound with precision.
- - Baby4 - 4 step cv sequencer firmware: Dive into the world of CV sequencing.
- - Multi-mode Envelope Generator firmware: 
- - Generative Polyrhythms based on 16 step counter knobs.
- - Generative CV Sequencer inspired by the Deja Vu mode of the Mutable Instruments Marbles
+# Firmware flavors
+
+ - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
+ - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmmnt/): Complex CV generator with self moduloation
+ - [ADSR - envelope generator firmware](https://awonak.github.io/HagiwoModulove/synclfo/#adsr): Craft intricate envelope shapes to shape your sound with precision.
+ - [Baby4 - 4 step cv sequencer firmware](https://awonak.github.io/HagiwoModulove/synclfo/#baby4): Dive into the world of CV sequencing.
+ - [Multi-mode Envelope Generator firmware](https://awonak.github.io/HagiwoModulove/synclfo/#multimodeenv): 
+ - [Generative Polyrhythms](https://awonak.github.io/HagiwoModulove/synclfo/#polyrhythm) based on 16 step counter knobs.
+ - [Generative CV Sequencer](https://awonak.github.io/HagiwoModulove/synclfo/#generativesequencer) (Inspired by the Deja Vu mode of the Mutable Instruments Marbles)
 
 ![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
 
-# Knob Functions:
+# Knob Functions - Bezier curve smooth Random Voltage:
 
 1. Level Knob: Set the CV voltage range. Define the maximum value within the 0 to 5V range for precise control over your sound.
 
@@ -44,7 +59,43 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 4. Frequency Knob: Adjust the frequency of voltage change, allowing you to control the speed of modulation.
 
 
+# Hardware Features:
+
+ - Arduino Nano
+ - 4 Potentiometer knobs
+ - TRIG Input (0-5V)
+ - Output Voltage 0/+10V
+ - Inverted Voltage 0/+10V
+ - Bipolar Voltage -10/+10
+
 # MVMNT experience
 
-This module beame a essential companion to breathe life into our modular patches. In a world where static sound can stifle creativity, "MVMNT" offers the automation and randomness we need to focus on composition and exploration. 
+This module quickly became a essential companion to breathe life into our modular patches. In a world of static sound, "MVMNT" offers the automation and randomness we need to focus more deeply on composition and exploration.
 
+
+# DIY Info / Links:
+
+Building the Module is simple and suited for beginners. All Kits come with SMD parts already soldered.
+
+Assembly Instructions (Quickstart) is here: [MVMNT / SYNC LFO QuickStart](https://modulove.io/mvmnt/ "MVMNT BUILD DOCS").
+
+[Buildvideo](https://www.youtube.com/watch?v=wJnPb67zS5Q)
+
+To update / load firmware on to your Arduino Nano or LGT8F328P you can just use the [MVMNT Firmware uploader in Chrome Browser here:](https://dl.modulove.de/module/mvmnt/ "MVMNT Firmware uploader").
+
+Modulargrid: [MVMNT on modulargrid.net](https://www.modulargrid.net/e/modulove-mvmnt "MVMNT on modulargrid.net").
+
+More Info:
+
+- [HAGIWO Bezier curve smooth random voltage generator Article](https://note.com/solder_state/n/n433b32ea6dbc "HAGIWO Bezier curve smooth random voltage module on note.com").
+
+- [HAGIWO SYNC LFO Article](https://note.com/solder_state/n/n4c600f2431c3 "HAGIWO SYNC MOD LFO article").
+
+- [HAGIWO Bezier curve smooth random voltage Video](https://www.youtube.com/watch?v=yJ8VUiZf6Yg "HAGIWO Bezier curve smooth random voltage generator on Youtube").
+
+- [HAGIWO Clock SYNC LFO Video](https://www.youtube.com/watch?v=m64jyVz2w3M "HAGIWO Clock SYNC LFO Youtube Video").
+
+
+Thanks for all the inspiration and work has been done go out especially to [HAGIWO](https://www.youtube.com/@HAGIWO "HAGIWO Youtube Channel"), [Michael Zülch](https://github.com/mzuelch "Michael Zülch Github Page") and all other people envolved in this corner!
+
+<a href="https://www.tindie.com/stores/modulove/?ref=offsite_badges&utm_source=sellers_modulove&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>

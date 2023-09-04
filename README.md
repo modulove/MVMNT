@@ -7,14 +7,14 @@ Unlock the magic of modular synthesis with "MVMNT," an extraordinary module desi
 
 This is our adaption of the original [HAGIWO 58th original eurorack modular synth DIY project the Bezier curve random CV generator](https://note.com/solder_state/n/n39aacefd73a3) and the [HAGIWO #12 SYNC LFO](https://note.com/solder_state/n/n4c600f2431c3).
 
-The Story of "MVMNT":
+# The Story of "MVMNT":
 
 The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
 It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts alike.
 
 ![MVMNT Flip panel ](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Both.jpg)
 
-# Key Features:
+# Features:
 
 - Dual-Panel Design by [bkrsmdesign](https://www.instagram.com/bkrsmdesign/ "Sasha Kruse"):
   "MVMNT" comes with a unique flip panel, featuring the original SYNC MOD LFO on the backside.
@@ -36,7 +36,7 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
   
 - Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), "MVMNT" offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try:
 
-# Firmware flavors
+# Firmware
 
  - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
  - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmmnt/): Complex CV generator with self moduloation
@@ -50,7 +50,7 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 
 # Knob Functions - Bezier curve smooth Random Voltage:
 
-1. Level Knob: Set the CV voltage range. Define the maximum value within the 0 to 5V range for precise control over your sound.
+1. Level Knob: Set the CV voltage range. Define the maximum value within the 0 to 10V range for precise control over your sound.
 
 2. Curve Knob: Modify the curvature of the voltage change curve. At 0, the change is linear, while higher values introduce greater curvature, conforming to the Bezier curve.
 
@@ -59,9 +59,9 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 4. Frequency Knob: Adjust the frequency of voltage change, allowing you to control the speed of modulation.
 
 
-# Hardware Features:
+# Hardware
 
- - Arduino Nano
+ - Arduino Nano v3 (USB-C)
  - 4 Potentiometer knobs
  - TRIG Input (0-5V)
  - Output Voltage 0/+10V
@@ -71,6 +71,7 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 # MVMNT experience
 
 This module quickly became a essential companion to breathe life into our modular patches. In a world of static sound, "MVMNT" offers the automation and randomness we need to focus more deeply on composition and exploration.
+
 
 
 # DIY Info / Links:

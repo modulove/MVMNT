@@ -26,13 +26,15 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 - or a panel/PCB kit with pre-placed SMD components for the perfect entry point into SYNTH DIY.
   
 - Beginner-Friendly: We've made it accessible to beginners by keeping assembly straightforward.
-  With just 20 parts to assemble, "MVMNT" welcomes newcomers to the world of modular synths.
+  With very few  parts to assemble, "MVMNT" welcomes newcomers to the world of modular synths.
   Our build video and firmware uploader ensure a smooth journey for all skill levels.
   
 - Smooth Random Control Voltage (CV): "MVMNT" introduces the power of smooth random CV, enhancing your modular with dynamic and unpredictable modulation possibilities.
 - Say goodbye to static soundscapes and welcome the beauty of randomness.
   
-- Track & Hold with the TRIG Input.
+- Track & Hold with using the TRIG Input.
+  
+- Additional inverted and Bipolar Outputs.
   
 - Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), "MVMNT" offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try:
 

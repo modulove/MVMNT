@@ -84,7 +84,7 @@ Assembly Instructions (Quickstart) is here: [MVMNT / SYNC LFO QuickStart](https:
 
 [Buildvideo](https://www.youtube.com/watch?v=wJnPb67zS5Q)
 
-To update / load firmware on to your Arduino Nano or LGT8F328P you can just use the [MVMNT Firmware uploader in Chrome Browser here:](https://dl.modulove.de/module/mvmnt/ "MVMNT Firmware uploader").
+To update / load firmware on to your Arduino Nano you can use the [MVMNT Firmware uploader in Chrome Browser here:](https://dl.modulove.de/module/mvmnt/ "MVMNT Firmware uploader").
 
 Modulargrid: [MVMNT on modulargrid.net](https://www.modulargrid.net/e/modulove-mvmnt "MVMNT on modulargrid.net").
 

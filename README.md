@@ -52,11 +52,11 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 
 # Knob Functions - Bezier curve smooth Random Voltage:
 
-1. ELEVATE is the Level Knob: Set the CV voltage range. Define the maximum value within the 0 to 10V range for precise control over your sound.
+1. ELEVATE is the Level Knob and sets the voltage range. 0 to 10V range.
 
-2. STRETCH σ (Standard Deviation) Knob: Control the width of fluctuation of frequency. At 0, voltage changes at a constant frequency. Increasing the value intensifies the fluctuation, introducing an element of unpredictability to your sound.
+2. STRETCH σ (Standard Deviation) Knob controls the width of frequency fluctuation. At 0, voltage changes at a constant frequency. Increasing the value intensifies the fluctuation, introducing an element of unpredictability-
 
-3. SMOOTH Curve Knob: Modify the curvature of the voltage change curve. At 0, the change is linear, while higher values introduce greater curvature, conforming to the Bezier curve.
+3. SMOOTH Curve Knob Modifys the curvature of the voltage change. At 0, the change is linear, while higher values introduce greater curvature, conforming to the Bezier curve.
 
 4. FLUCTUATE Frequency Knob: Adjust the frequency of voltage change, allowing you to control the speed of modulation.
 
@@ -83,6 +83,8 @@ Building the Module is simple and suited for beginners. All Kits come with SMD p
 Assembly Instructions (Quickstart) is here: [MVMNT / SYNC LFO QuickStart](https://modulove.io/mvmnt/ "MVMNT BUILD DOCS").
 
 [Buildvideo](https://www.youtube.com/watch?v=wJnPb67zS5Q)
+
+[BenjieGenrativePatch](https://www.youtube.com/watch?v=Tm7N2I8bMkU)
 
 To update / load firmware on to your Arduino Nano you can use the [MVMNT Firmware uploader in Chrome Browser here:](https://dl.modulove.de/module/mvmnt/ "MVMNT Firmware uploader").
 

@@ -3,11 +3,11 @@ Breathe Life Into Your Modular Soundscapes!
 
 ![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
 
-Unlock the magic of modular synthesis with "MVMNT," an extraordinary module designed to infuse your soundscapes with vitality and dynamic expression. 
+Unlock the magic of modular synthesis with MVMNT, an extraordinary module designed to infuse your soundscapes with vitality and dynamic expression. 
 
 This is our adaption of the original [HAGIWO 58th original eurorack modular synth DIY project the Bezier curve random CV generator](https://note.com/solder_state/n/n39aacefd73a3) and the [HAGIWO #12 SYNC LFO](https://note.com/solder_state/n/n4c600f2431c3).
 
-# The Story of "MVMNT":
+# The Story of MVMNT:
 
 The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
 It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts alike.
@@ -17,26 +17,26 @@ It is inspired by the CV section of Mutable Instruments Marbles and we aimed to 
 # Features:
 
 - Dual-Panel Design by [bkrsmdesign](https://www.instagram.com/bkrsmdesign/ "Sasha Kruse"):
-  "MVMNT" comes with a unique flip panel, featuring the original SYNC MOD LFO on the backside.
-  This dual-use design allows you to switch between the two panels, providing flexibility and added value.
+  It comes with a flip panel, featuring the original SYNC MOD LFO on the backside.
+  This dual-use design allows you to switch between the two modules, providing flexibility and added value.
   
-- Three Options in One: Choose the path that suits you best with three options -
-- a complete built module for immediate gratification,
-- a complete DIY kit,
-- or a panel/PCB kit with pre-placed SMD components for the perfect entry point into SYNTH DIY.
+- Three Options in One: Choose the path that suits you best with three options:
+- complete built module for immediate gratification,
+- complete DIY kit,
+- or panel/PCB kit with pre-placed SMD components for the perfect entry point into SYNTH DIY.
   
-- Beginner-Friendly: We've made it accessible to beginners by keeping assembly straightforward.
-  With very few  parts to assemble, "MVMNT" welcomes newcomers to the world of modular synths.
-  Our build video and firmware uploader ensure a smooth journey for all skill levels.
+- Beginner-Friendly: We hope to maje it accessible to beginners by keeping assembly straightforward.
+  With very few parts to assemble, MVMNT welcomes newcomers to the diy world of modular synths.
+  Our build video and firmware uploader ensure a smooth setup for all skill levels.
   
-- Smooth Random Control Voltage (CV): "MVMNT" introduces the power of smooth random CV, enhancing your modular with dynamic and unpredictable modulation possibilities.
+- Smooth Random Control Voltage (CV): MVMNT introduces the power of smooth random CV, enhancing your modular with dynamic and unpredictable modulation possibilities.
 - Say goodbye to static soundscapes and welcome the beauty of randomness.
   
 - Track & Hold with using the TRIG Input.
   
 - Additional inverted and Bipolar Outputs.
   
-- Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), "MVMNT" offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try:
+- Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), the hardware offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try.
 
 # Firmware
 

@@ -43,6 +43,7 @@ Since more and more Firmware versions emerged for this hardware we picked this a
 
  - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
  - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmmnt/): Complex CV generator with self moduloation
+ - [Perlin Noise Firmware](https://awonak.github.io/HagiwoModulove/synclfo/#perlin-noise): This firmware produces smooth random voltages to chaotic noise using the Perlin noise algorithm.
  - [ADSR - envelope generator firmware](https://awonak.github.io/HagiwoModulove/synclfo/#adsr): Craft intricate envelope shapes to shape your sound with precision.
  - [Baby4 - 4 step cv sequencer firmware](https://awonak.github.io/HagiwoModulove/synclfo/#baby4): Dive into the world of CV sequencing.
  - [Multi-mode Envelope Generator firmware](https://awonak.github.io/HagiwoModulove/synclfo/#multimodeenv): 

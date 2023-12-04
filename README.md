@@ -1,5 +1,5 @@
 # MVMNT - Bezier Curve Smooth Random Control Voltage
-Breathe (random) Life Into Your Modular Patches!
+Breathe (random) Life Into Your Eurorack Modular Patches!
 
 ![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
 
@@ -71,10 +71,11 @@ Since more and more Firmware versions emerged for this hardware we picked this a
  - Output Voltage 0/+10V
  - Inverted Voltage 0/+10V
  - Bipolar Voltage -10/+10
+ - Skiff Friendly (24mm depth)
 
 # MVMNT experience
 
-This module quickly became a essential companion to breathe life into our modular patches. In a world of static sound, "MVMNT" offers the automation and randomness we need to focus more deeply on composition and exploration.
+This module quickly became a essential companion to breathe life into our modular syth patches. MVMNT offers the automation and randomness we need to focus more deeply on composition and exploration.
 
 
 

@@ -1,0 +1,44 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "MVMNT - Bezier curve smooth random CV",
+        "revision": "REV1",
+        "company": "Modulove",
+        "date": "2023-08-01 13:00:28"
+    },
+    "settings": {
+        "canvaslayout": "B",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "26,27,25,18,20,21,23,24,12,13,14,15,19,22,16,17,36,51,39,40,41,43,44,45,46,49,29,30,31,34,37,42,50,32,33,35,38,47,48",
+            "Placed": "26,27,25,18,20,21,23,24,12,13,14,15,19,22,16,17,36,51,39,40,41,43,44,45,46,49,29,30,31,34,37,42,50,32,33,35,38,47,48"
+        },
+        "darkMode": true,
+        "highlightpin1": false,
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": true,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "markWhenChecked": ""
+    }
+}

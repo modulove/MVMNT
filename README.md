@@ -1,10 +1,10 @@
 # MVMNT - Bezier Curve Smooth Random Control Voltage
-Breathe (random) Life Into Your Eurorack Modular Patches!
+Breathe Life Into Your Eurorack Modular Patches!
 
 ![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
 
-MVMNT is an Eurorack module designed to infuse your patch with vitality and dynamic expression.
-Its little bit like a NLC Sloth module but MVMNT enhances precision and versatility, giving you the power to finely adjust the shape and intensity of the smooth random values generated with precise control over smooth random modulation.
+MVMNT is an Eurorack module designed to infuse your patch with smooth random and dynamic modulation.
+Its little bit like a NLC Sloth module but MVMNT offers both precision and versatility, giving you the power to fine tune the shape and intensity of the smooth random values generated with precise control over smooth random modulation control voltage.
 
 This is our adaption of the original [HAGIWO 58th original eurorack modular synth DIY project the Bezier curve random CV generator](https://note.com/solder_state/n/n39aacefd73a3) and the [HAGIWO #12 SYNC LFO](https://note.com/solder_state/n/n4c600f2431c3).
 

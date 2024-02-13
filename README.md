@@ -100,7 +100,7 @@ Modulargrid: [MVMNT on modulargrid.net](https://www.modulargrid.net/e/modulove-m
 
 More Info:
 
-- [HAGIWO Bezier curve smooth random voltage generator Article](https://note.com/solder_state/n/n433b32ea6dbc "HAGIWO Bezier curve smooth random voltage module on note.com").
+- [HAGIWO Bezier curve smooth random voltage generator Article](https://note.com/solder_state/n/n39aacefd73a3 "HAGIWO Bezier curve smooth random voltage module on note.com").
 
 - [HAGIWO SYNC LFO Article](https://note.com/solder_state/n/n4c600f2431c3 "HAGIWO SYNC MOD LFO article").
 

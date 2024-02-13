@@ -29,7 +29,7 @@ Since more and more Firmware versions emerged for the hardware we picked this as
 - complete DIY kit,
 - or panel/PCB kit with pre-placed SMD components for the perfect entry point into SYNTH DIY.
   
-- Beginner-Friendly: We hope to maje it accessible to beginners by keeping assembly straightforward.
+- Beginner-Friendly: We hope to make it accessible to beginners by keeping assembly straightforward.
   With very few parts to assemble, MVMNT welcomes newcomers to the diy world of modular synths.
   Our build video and firmware uploader ensure a smooth setup for all skill levels.
   
@@ -40,7 +40,7 @@ Since more and more Firmware versions emerged for the hardware we picked this as
   
 - Additional inverted and Bipolar Outputs.
   
-- Additional Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), the hardware offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try.
+- Additional Firmware Options from [Adam Wonak](https://github.com/awonak/). The MVMNT hardware offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try. Very easy to flash from your browser-
 
 # Firmware
 

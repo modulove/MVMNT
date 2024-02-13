@@ -44,6 +44,9 @@ Since more and more Firmware versions emerged for this hardware we picked this a
 
 # Firmware
 
+[Flash the firmware](https://dl.modulove.de/module/mvmmnt/) to your module directly from your web browser! No need to compile or upload from the Arduino IDE!
+
+
  - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
  - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmmnt/): Complex CV generator with self moduloation
  - [Perlin Noise Firmware](https://awonak.github.io/HagiwoModulove/synclfo/#perlin-noise): This firmware produces smooth random voltages to chaotic noise using the Perlin noise algorithm.

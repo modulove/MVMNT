@@ -48,7 +48,7 @@ Since more and more Firmware versions emerged for the hardware we picked this as
 
 
  - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
- - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmmnt/): Complex CV generator with self moduloation
+ - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmnt/): Complex CV generator with self moduloation
  - [Perlin Noise Firmware](https://awonak.github.io/HagiwoModulove/synclfo/#perlin-noise): This firmware produces smooth random voltages to chaotic noise using the Perlin noise algorithm.
  - [ADSR - envelope generator firmware](https://awonak.github.io/HagiwoModulove/synclfo/#adsr): Craft intricate envelope shapes to shape your sound with precision.
  - [Baby4 - 4 step cv sequencer firmware](https://awonak.github.io/HagiwoModulove/synclfo/#baby4): Dive into the world of CV sequencing.
@@ -74,8 +74,8 @@ Since more and more Firmware versions emerged for the hardware we picked this as
  - 4 Potentiometer knobs
  - TRIG Input (0-5V)
  - Output Voltage 0/+10V
- - Inverted Voltage 0/+10V
- - Bipolar Voltage -10/+10
+ - Inverted Voltage +/-10V
+ - Bipolar Voltage +/-10V
  - Skiff Friendly (24mm depth)
 
 # MVMNT experience
@@ -88,7 +88,7 @@ This module quickly became a essential companion to breathe life into our modula
 
 Building the Module is simple and suited for beginners. All Kits come with SMD parts already soldered.
 
-Assembly Instructions (Quickstart) is here: [MVMNT / SYNC LFO QuickStart](https://modulove.io/mvmnt/ "MVMNT BUILD DOCS").
+Assembly Instructions (Quickstart) here: [MVMNT / SYNC LFO QuickStart](https://modulove.io/mvmnt/ "MVMNT BUILD DOCS").
 
 [Buildvideo](https://www.youtube.com/watch?v=wJnPb67zS5Q)
 

@@ -18,16 +18,23 @@ int freq_err[32] = {8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30
 
 uint16_t seed;
 
-// hold previous state
+// New variables to hold previous state
 int prevTrigState = LOW;
 float holdValue = 0;
 
 void setup() {
+
+  // Initialize serial communication
+  //Serial.begin(115200);
+  //while (!Serial) {} // Wait for the serial connection to be established
+
+
   for (unsigned int j = 0; j < 255; j++) {
     x[j] = j * 0.003921;
   }
+
   pinMode(10, OUTPUT);
-  pinMode(3, INPUT_PULLUP);
+  pinMode(3, INPUT_PULLUP); // Set Pin D3 as input with internal pull-up resistor
   timer = micros();
   timer1 = millis();
   TCCR1B &= B11111000;
@@ -36,12 +43,16 @@ void setup() {
 }
 
 void loop() {
-  int currentTrigState = digitalRead(3);
+  int currentTrigState = digitalRead(3); // Read the trig input
 
+  // Check if trig state has changed
   if (currentTrigState != prevTrigState) {
+    // If Trig is HIGH (held high), store the current output value
     if (currentTrigState == HIGH) {
       holdValue = bz_val * level / 255;
-    } else {
+    }
+    // If Trig is LOW (released), reset the holdValue
+    else {
       holdValue = 0;
     }
     prevTrigState = currentTrigState;
@@ -71,11 +82,13 @@ void loop() {
 
     timer = micros();
     PWM_OUT();
+    //debugInfo();
   }
+
 }
 
 void change_freq_error() {
-  dev = map(analogRead(1), 0, 1023, 0, 500);
+  dev = map(analogRead(1), 0, 1023, 500, 0); // reverse pot
   freq_rnd = random(500 - dev, 500 + dev);
   for (int k = 0; k < 32; k++) {
     if (freq_rnd >= chance[k] && freq_rnd < chance[k + 1]) {

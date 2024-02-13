@@ -8,11 +8,11 @@ Its little bit like a NLC Sloth module but MVMNT enhances precision and versatil
 
 This is our adaption of the original [HAGIWO 58th original eurorack modular synth DIY project the Bezier curve random CV generator](https://note.com/solder_state/n/n39aacefd73a3) and the [HAGIWO #12 SYNC LFO](https://note.com/solder_state/n/n4c600f2431c3).
 
-# The Story of MVMNT:
+# History
 
-The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, the hardware is  based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with many contributions from the vibrant eurorack modular community. 
-It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts alike.
-Since more and more Firmware versions emerged for this hardware we picked this as a first favorite and share it with you.
+All began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, this hardware is based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with many contributions from the eurorack modular community.
+It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts.
+Since more and more Firmware versions emerged for the hardware we picked this as a first favorite and share it with you.
 
 ![MVMNT Flip panel ](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Both.jpg)
 
@@ -56,7 +56,6 @@ Since more and more Firmware versions emerged for this hardware we picked this a
  - [Generative Polyrhythms](https://awonak.github.io/HagiwoModulove/synclfo/#polyrhythm) based on 16 step counter knobs.
  - [Generative CV Sequencer](https://awonak.github.io/HagiwoModulove/synclfo/#generativesequencer) (Inspired by the Deja Vu mode of the Mutable Instruments Marbles)
 
-![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
 
 # Knob Functions - Bezier curve smooth Random Voltage:
 

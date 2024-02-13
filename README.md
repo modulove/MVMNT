@@ -3,13 +3,14 @@ Breathe (random) Life Into Your Eurorack Modular Patches!
 
 ![MVMNT Bezier Curves Smooth Random Control Voltage generator](https://dl.modulove.de/module/mvmnt/Modulove_MVMNT_Productshot_Front.jpg)
 
-MVMNT is an extraordinary module designed to infuse your patch with vitality and dynamic expression.
+MVMNT is an Eurorack module designed to infuse your patch with vitality and dynamic expression.
+Its little bit like a NLC Sloth module but MVMNT enhances precision and versatility, giving you the power to finely adjust the shape and intensity of the smooth random values generated with precise control over smooth random modulation.
 
 This is our adaption of the original [HAGIWO 58th original eurorack modular synth DIY project the Bezier curve random CV generator](https://note.com/solder_state/n/n39aacefd73a3) and the [HAGIWO #12 SYNC LFO](https://note.com/solder_state/n/n4c600f2431c3).
 
 # The Story of MVMNT:
 
-The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, the hardware is heavily based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with invaluable contributions from the vibrant eurorack modular community. 
+The journey began with the publication of the [original design by Hagiwo](https://note.com/solder_state/n/n39aacefd73a3) in October 2022, the hardware is  based on Michael Zülch's ([Cats-Synth](https://github.com/mzuelch/CATs-Eurosynth)) LFO, with many contributions from the vibrant eurorack modular community. 
 It is inspired by the CV section of Mutable Instruments Marbles and we aimed to make it SYNTH DIY friendly and accessible to beginners as well as enthusiasts alike.
 Since more and more Firmware versions emerged for this hardware we picked this as a first favorite and share it with you.
 
@@ -17,6 +18,8 @@ Since more and more Firmware versions emerged for this hardware we picked this a
 
 # Features:
 
+- Precise control over the shape and rate of smooth random modulation
+- Adjustable intensity for fine-tuning randomness
 - Dual-Panel Design by [bkrsmdesign](https://www.instagram.com/bkrsmdesign/ "Sasha Kruse"):
   It comes with a flip panel, featuring the original SYNC MOD LFO on the backside.
   This dual-use design allows you to switch between the two modules, providing flexibility and added value.
@@ -37,7 +40,7 @@ Since more and more Firmware versions emerged for this hardware we picked this a
   
 - Additional inverted and Bipolar Outputs.
   
-- Versatile Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), the hardware offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try.
+- Additional Firmware Options: Additional cool firmware from the talented coder [Adam Wonak](https://github.com/awonak/), the hardware offers a wide range of [additional firmware options](https://awonak.github.io/HagiwoModulove/synclfo/) to try.
 
 # Firmware
 

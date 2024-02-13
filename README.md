@@ -44,7 +44,7 @@ Since more and more Firmware versions emerged for this hardware we picked this a
 
 # Firmware
 
-[Flash the firmware](https://dl.modulove.de/module/mvmmnt/) to your module directly from your web browser! No need to compile or upload from the Arduino IDE!
+[Flash the firmware](https://dl.modulove.de/module/mvmnt/) to your module directly from your web browser! No need to compile or upload from the Arduino IDE!
 
 
  - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.

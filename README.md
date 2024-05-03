@@ -90,6 +90,8 @@ Building the Module is simple and suited for beginners. All Kits come with SMD p
 
 Assembly Instructions (Quickstart) here: [MVMNT / SYNC LFO QuickStart](https://modulove.io/mvmnt/ "MVMNT BUILD DOCS").
 
+[MVMNT / SYNC LFO iBOM](https://htmlpreview.github.io/?https://github.com/modulove/MVMNT/blob/main/BOM/ibom.html "MVMNT BOM").
+
 [Buildvideo](https://www.youtube.com/watch?v=wJnPb67zS5Q)
 
 [BenjieGenrativePatch](https://www.youtube.com/watch?v=Tm7N2I8bMkU)

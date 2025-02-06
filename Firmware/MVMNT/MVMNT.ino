@@ -1,3 +1,5 @@
+// Portions of this code were originally written by HAGIWO and released under CC0.
+
 #include <avr/io.h>
 
 int i = 0;

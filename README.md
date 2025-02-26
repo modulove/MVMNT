@@ -59,13 +59,15 @@ Since more and more Firmware versions emerged for the hardware we picked this as
 
 # Knob Functions - Bezier curve smooth Random Voltage:
 
-1. ELEVATE is the Level Knob and sets the voltage range. 0 to 10V range.
+1. ELEVATE is the Level Knob and sets the voltage range and controls output amplitude. 0 to 10V range.
 
-2. STRETCH σ (Standard Deviation) Knob controls the width of frequency fluctuation. At 0, voltage changes at a constant frequency. Increasing the value intensifies the fluctuation, introducing an element of unpredictability-
+2. STRETCH σ (Standard Deviation) Knob controls the width of frequency fluctuation. At 0, voltage changes at a constant frequency. Increasing the value intensifies the fluctuation, introducing an element of unpredictability- Low = slow changes, High = fast changes
 
-3. SMOOTH Curve Knob Modifys the curvature of the voltage change. At 0, the change is linear, while higher values introduce greater curvature, conforming to the Bezier curve.
+3. SMOOTH Curve Knob Modifys the curvature of the voltage change. At 0, the change is linear, while higher values introduce greater curvature, conforming to Smooth Bezier curve transitions. 0% = Linear transitions, 100% = Smooth Bezier transitions
 
-4. FLUCTUATE Frequency Knob: Adjust the frequency of voltage change, allowing you to control the speed of modulation.
+4. FLUCTUATE Frequency Knob: Adjust the randomness of frequency changes, allowing you to control the speed of modulation. 0% = steady timing, 100% = highly random timing
+   
+5. Track & Hold: Holds the last voltage when HIGH, resumes normal changes when LOW
 
 
 # Hardware

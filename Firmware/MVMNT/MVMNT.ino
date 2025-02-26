@@ -42,11 +42,10 @@ void loop() {
 
 int currentTrigState = digitalRead(3); // Read the trig input
 
+  // Track & Hold: retain last valid voltage
   if (currentTrigState != prevTrigState) {
     if (currentTrigState == HIGH) {
-        holdValue = bz_val * level / 255; // Hold the current voltage
-    } else {
-        holdValue = 0; // Reset holdValue when released
+      holdValue = bz_val * level / 255; // Hold the current voltage
     }
     prevTrigState = currentTrigState;
   }
@@ -73,7 +72,7 @@ int currentTrigState = digitalRead(3); // Read the trig input
     wait = 3 * pow((1 - x[i]), 2) * x[i] * curve + 
            3 * (1 - x[i]) * pow(x[i], 2) * (255 - curve) + 
            pow(x[i], 3) * 255;
-    wait = max(1, 1 + wait * freq * 2); // Ensure wait never goes negative
+    wait = max(5, 1 + wait * freq * 2); // Ensure wait never goes negative
     bz_val = pow((1 - x[i]), 3) * start_val + 
              3 * pow((1 - x[i]), 2) * x[i] * start_val + 
              3 * (1 - x[i]) * pow(x[i], 2) * end_val + 

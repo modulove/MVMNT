@@ -58,7 +58,7 @@ void setup() {
 void loop() {
     int currentTrigState = digitalRead(3); // Read the trig input
 
-    // Track & Hold correction: retain last valid voltage instead of resetting to 0
+    // Hold Input correction: retain last valid voltage instead of resetting to 0
     if (currentTrigState != prevTrigState) {
         if (currentTrigState == HIGH) {
             holdValue = bz_val * level / 255; // Hold the current voltage

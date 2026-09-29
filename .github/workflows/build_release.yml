@@ -17,16 +17,15 @@ jobs:
     strategy:
       matrix:
         firmware: ["MVMNT", "SyncLFO"]
-        board: ["arduino:avr:nano", "arduino:avr:nano:cpu=atmega328old"]
+        # both firmwares also run on the pin-compatible LGT8F328P nano boards (32 MHz);
+        # the board is detected at compile time, boardpath matches the web uploader key
+        board: ["arduino:avr:nano", "arduino:avr:nano:cpu=atmega328old", "lgt8fx:avr:328"]
         include:
           - board: arduino:avr:nano
             boardpath: nano
           - board: arduino:avr:nano:cpu=atmega328old
             boardpath: nanoOldBootloader
-          # SyncLFO also runs on the pin-compatible LGT8F328P nano boards (32 MHz);
-          # the board is detected at compile time, boardpath matches the web uploader key
-          - firmware: SyncLFO
-            board: lgt8fx:avr:328
+          - board: lgt8fx:avr:328
             boardpath: lgt8f328p
 
     steps:

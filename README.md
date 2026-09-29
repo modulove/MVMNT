@@ -48,7 +48,7 @@ Since more and more Firmware versions emerged for the hardware we picked this as
 
 
  - [Bezier Curve Smooth Random Control](https://dl.modulove.de/module/mvmmnt/) (Default): The core feature that unlocks smooth, enigmatic control voltage for dynamic modulation.
- - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmnt/): Complex CV generator with self moduloation
+ - [SYNC MOD LFO original Firmware](https://dl.modulove.de/module/mvmnt/): Complex CV generator with self modulation, plus a clocked sample & hold / Turing-style note sequencer and a quantized 1 V/oct melody mode (see the header of `Firmware/SyncLFO/SyncLFO.ino`). Builds for the Arduino Nano and the LGT8F328P nano boards.
  - [Perlin Noise Firmware](https://awonak.github.io/HagiwoModulove/synclfo/#perlin-noise): This firmware produces smooth random voltages to chaotic noise using the Perlin noise algorithm.
  - [ADSR - envelope generator firmware](https://awonak.github.io/HagiwoModulove/synclfo/#adsr): Craft intricate envelope shapes to shape your sound with precision.
  - [Baby4 - 4 step cv sequencer firmware](https://awonak.github.io/HagiwoModulove/synclfo/#baby4): Dive into the world of CV sequencing.

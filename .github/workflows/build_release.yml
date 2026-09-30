@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        firmware: ["MVMNT", "SyncLFO"]
-        # both firmwares also run on the pin-compatible LGT8F328P nano boards (32 MHz);
+        firmware: ["MVMNT", "SyncLFO", "DRIFT"]
+        # all firmwares also run on the pin-compatible LGT8F328P nano boards (32 MHz);
         # the board is detected at compile time, boardpath matches the web uploader key
         board: ["arduino:avr:nano", "arduino:avr:nano:cpu=atmega328old", "lgt8fx:avr:328"]
         include:

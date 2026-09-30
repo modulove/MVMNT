@@ -6,6 +6,11 @@
  * Output: 9-bit fast PWM on OC1B (~31 kHz carrier, 512 levels). 8-bit fallback
  * documented at writeCV().
  *
+ * Runs on the Arduino Nano (ATmega328, 16 MHz) and on the pin-compatible
+ * LGT8F328P nano clones (32 MHz), where the PWM carrier lands at ~62.5 kHz -
+ * above the Nano's, so the output filter has an easier time, not a harder one.
+ * The board is detected at compile time; nothing else differs.
+ *
  * KNOBS  (physical positions unchanged; functions reassigned):
  *   A0  (Elevate pos)   -> DEPTH       
         output amplitude. 0 = flat, 1 = full swing.
@@ -28,6 +33,12 @@
  */
 
 #include <avr/io.h>
+
+#if defined(__LGT8FX8P__)
+  #define MCU_IS_LGT 1
+#else
+  #define MCU_IS_LGT 0
+#endif
 
 // ---- tunables --------------------------------------------------------------
 #define PIN_CV        10          // OC1B PWM output
@@ -147,6 +158,9 @@ void writeCV(float v01) {
 void setup() {
   pinMode(PIN_CV, OUTPUT);
   pinMode(PIN_TRIG, INPUT);
+#if MCU_IS_LGT
+  analogReadResolution(10);   // the LGT core's default, pinned so the knob ranges never move
+#endif
 
   // 9-bit Fast PWM on OC1B: TOP = 511, prescaler /1  -> ~31.25 kHz carrier.
   TCCR1A = _BV(COM1B1) | _BV(WGM11);

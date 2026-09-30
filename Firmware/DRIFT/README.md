@@ -12,14 +12,12 @@ Kilohearts Snap Heap, and it turns MVMNT into a modulation source that goes from
 
 ---
 
-## The story
+## About DRIFT
+
+Earlier this year I got some nice feedback and contribution from one of our customers that I wanted to share.
 
 Mike is a sound designer working in film, television and games. He also builds
 Eurorack — but not to make music with it:
-
-> I'm doing the modular dance more for sound design (film/tv/games) than music, so
-> finding something that gave me a nicer motion curve than a basic slew limiter was
-> kinda annoying! But then I almost immediately was like "ahhh but what if..."
 
 He had bought two MVMNT kits, built one, and went looking for motion. In his day job
 that motion comes from software — and it comes in bulk:
@@ -28,17 +26,7 @@ that motion comes from software — and it comes in bulk:
 > sometimes 27 different random generators because hey sometimes I have to make 300
 > different fight whooshes! Or space octopus tentacles. Or evil robot drones...
 
-So he rewrote the MVMNT firmware to behave like the thing he already trusted. Every
-knob got a new job, the trigger input got a new job, and the output got a resolution
-bump for good measure:
-
-> I also bumped the output up to 9bit — could go to 10bit maybe but probably not
-> really that necessary (the 9 bit probably isn't either) and would start getting some
-> PWM oddities I think.
-
-Then he sent it to us with four words:
-
-> **But yeah! Share it with the community!**
+So he rewrote the MVMNT firmware and sent it in.
 
 So here it is. Thanks, Mike.
 
@@ -157,9 +145,6 @@ DRIFT runs on the Arduino Nano (either bootloader) and on LGT8F328P Nano clones.
 board is detected at compile time — there is nothing to configure. On the LGT8F the
 32 MHz clock puts the PWM carrier at ~62.5 kHz instead of ~31 kHz, which the output
 filter likes slightly better; everything else is identical.
-
-Going back to stock MVMNT, or over to SyncLFO, is the same button on the same page.
-Nothing here is one-way.
 
 ---
 
